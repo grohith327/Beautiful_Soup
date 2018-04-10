@@ -1,7 +1,7 @@
 import bs4 as bs
 import urllib.request
 
-sauce = urllib.request.urlopen('https://en.wikipedia.org/wiki/Lionel_Messi').read()
+sauce = urllib.request.urlopen('URL').read()
 soup = bs.BeautifulSoup(sauce,'lxml')
 
 
